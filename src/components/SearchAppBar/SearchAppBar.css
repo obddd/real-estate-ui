@@ -1,0 +1,17 @@
+.header-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    font-weight: 700;
+    color: #042f66;
+}
+
+.header-title{
+    margin: 14px;
+}
+.header-icon{
+    margin: 14px 22px;
+    padding-top: 6px;
+}
