@@ -1,11 +1,11 @@
 import React from 'react';
-import SearchAppBar from '../components/SearchAppBar/SearchAppBar';
+import HeaderBar from '../components/HeaderBar/HeaderBar';
 import SearchContainer from '../components/SearchContainer/SearchContainer';
 
 const SearchPage = () => {
   return (
     <div>
-      <SearchAppBar />
+      <HeaderBar />
       <SearchContainer />
     </div>
   );

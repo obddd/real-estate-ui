@@ -1,5 +1,7 @@
 import React from 'react';
 import './SearchContainer.css';
+import SearchBar from '../SearchBar/SearchBar';
+
 const SearchContainer = () => {
   return (
     <div className="search-container">
@@ -11,6 +13,9 @@ const SearchContainer = () => {
       </div>
       <div className="search-title">
         <span>___</span>
+      </div>
+      <div className="search-bar">
+        <SearchBar />
       </div>
     </div>
   );

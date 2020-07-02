@@ -1,7 +1,7 @@
 import React from 'react';
 import { ReactComponent as SearchIcon } from '../../assets/search.svg';
 import { ReactComponent as MenuIcon } from '../../assets/menu.svg';
-import './SearchAppBar.css';
+import './HeaderBar.css';
 
 const SearchAppBar = () => {
   return (
