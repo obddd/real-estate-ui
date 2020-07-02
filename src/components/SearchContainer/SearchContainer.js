@@ -10,7 +10,7 @@ const SearchContainer = () => {
         <span>for the right house for you !</span>
       </div>
       <div className="search-title">
-        <span>____</span>
+        <span>___</span>
       </div>
     </div>
   );
