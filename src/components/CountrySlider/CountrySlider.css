@@ -1,0 +1,27 @@
+.slider-container{
+    margin-top: 50px;
+    height: 900px;
+    padding: 50px;
+}
+
+.slider-title{
+    font-weight: 300;
+    font-size: 50px;
+    color: #07212c;
+}
+
+.slider-btn{
+    border-radius: 50%;
+    height: 65px;
+    background-color: #efefef;
+    border: 1px solid #fd7973;
+    color: #fd7973;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 8px;
+    outline: none;
+}
