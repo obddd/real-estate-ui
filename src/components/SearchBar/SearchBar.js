@@ -9,7 +9,7 @@ const SearchBar = () => {
           <div className="label">
             <label>Search and Find</label>
           </div>
-          <div>
+          <div className="input">
             <input
               type="text"
               placeholder="Title, keyword, address, zip or property id"
@@ -20,13 +20,15 @@ const SearchBar = () => {
           <div className="label">
             <label>Location</label>
           </div>
-          <input type="text" placeholder="Singapore, Singapore" />
+          <div className="input">
+            <input type="text" placeholder="Singapore, Singapore" />
+          </div>
         </div>
         <div className="form-field">
           <div className="label">
             <label>Type</label>
           </div>
-          <div>
+          <div className="input">
             <select>
               <option value="">Residence</option>
               <option value="">Offices</option>

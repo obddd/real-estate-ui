@@ -1,0 +1,11 @@
+.collection-container{
+    margin-top: 150px;
+    height: 900px;
+    padding: 50px;
+}
+
+.collection-title{
+    font-weight: 300;
+    font-size: 50px;
+    color: #07212c;
+}
