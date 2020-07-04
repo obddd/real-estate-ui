@@ -32,14 +32,14 @@ const PropertyCard = () => {
             <br />
             <span>Land Tenure</span>
           </div>
-          <Divider orientation="vertical"  />
+          <Divider orientation="vertical"/>
           <div className="property-card-area">
             <span>27,281</span>
             <br />
             <br />
             <span>Site Area</span>
           </div>
-          <Divider orientation="vertical"  />
+          <Divider orientation="vertical"/>
           <div className="property-card-nla">
             <span>3,700,000</span>
             <br />

@@ -1,10 +1,11 @@
 import React from 'react';
 import './SearchBar.css';
+import Divider from '@material-ui/core/Divider';
 
 const SearchBar = () => {
   return (
-    <div className="searchbar-container">
-      <div className="form-group">
+    <form>
+      <div className="searchbar-container">
         <div className="form-field">
           <div className="label">
             <label>Search and Find</label>
@@ -12,10 +13,13 @@ const SearchBar = () => {
           <div className="input">
             <input
               type="text"
-              placeholder="Title, keyword, address, zip or property id"
+              placeholder="Title, keyword, address, zip or property id ..."
             />
           </div>
         </div>
+
+        <Divider orientation="vertical"/>
+
         <div className="form-field">
           <div className="label">
             <label>Location</label>
@@ -24,6 +28,9 @@ const SearchBar = () => {
             <input type="text" placeholder="Singapore, Singapore" />
           </div>
         </div>
+
+        <Divider orientation="vertical"/>
+
         <div className="form-field">
           <div className="label">
             <label>Type</label>
@@ -36,9 +43,9 @@ const SearchBar = () => {
             </select>
           </div>
         </div>
-        <button>Submit</button>
+        <button className="search-btn"><i class="fa fa-search"></i></button>
       </div>
-    </div>
+    </form>
   );
 };
 
