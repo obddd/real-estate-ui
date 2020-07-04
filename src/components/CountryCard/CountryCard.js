@@ -8,7 +8,7 @@ const CountryCard = () => {
 
         <div className="country-text-container">
           <div className="country-card-header-heading">
-            <span>Singpore</span>
+            <span>Singapore</span>
           </div>
           <div>
             <span>(218 Properties)</span>

@@ -1,65 +1,52 @@
 import React from 'react';
 import './PropertyCard.css';
-
 import Divider from '@material-ui/core/Divider';
 
 const PropertyCard = () => {
   return (
-    <div className="card-container">
-      <div className="image-container"></div>
+    <div className="property-card-container">
+      <div className="property-card-image"></div>
 
-      <div className="text-container">
-        <div className="header">
-          <div className="header-heading">
-            <h2>Robinson 77</h2>
+      <div className="property-card-text">
+        <div className="property-card-desc">
+          <div className="property-card-heading">
+            <span>76 Neon Street</span>
           </div>
-          <div>
-            <span>77 Robinson Road, Shenton</span>
+          <div className="property-card-address">
+            <span>0556 Marvin Land Suite 998</span>
+            <br />
+            <span>Sydney, Australia</span>
           </div>
-          <div>
-            <span>Way-Robinson Rd-Cecil St, Singapore</span>
+          <div className="property-card-desc-year">
+            <span>Year of Completion</span>
+            <span>2019</span>
           </div>
         </div>
 
         <Divider variant="middle" />
 
-        <div className="desc">
-          <div className="desc-section">
-            <span className="desc-section-span">Year of Completion</span>
-            <span className="desc-section-span">2019</span>
+        <div className="property-card-detail">
+          <div className="property-card-year">
+            <span>99 Years</span>
+            <br />
+            <br />
+            <span>Land Tenure</span>
           </div>
-          <div className="desc-section">
-            <span className="desc-section-span">Land Tenure</span>
-            <span className="desc-section-span">99 Years</span>
+          <Divider orientation="vertical"  />
+          <div className="property-card-area">
+            <span>27,281</span>
+            <br />
+            <br />
+            <span>Site Area</span>
           </div>
-          <div className="desc-section">
-            <span className="desc-section-span">Site Area (sqft)</span>
-            <span className="desc-section-span">27,281</span>
-          </div>
-          <div className="desc-section">
-            <span className="desc-section-span">NLA 9 (sqft)</span>
-            <span className="desc-section-span">3,700,000</span>
-          </div>
-        </div>
-
-        <Divider variant="middle" />
-
-        <div className="desc2">
-          <div className="desc-section2">
-            <span className="desc-section-span">Carpark Lots</span>
-            <span className="desc-section-span">900</span>
-          </div>
-          <div className="desc-section2">
-            <span className="desc-section-span">Components</span>
-            <span className="desc-section-span">Office, Retail, Hotel</span>
-          </div>
-          <div className="desc-section2">
-            <span className="desc-section-span">Major Tenants</span>
-            <span className="desc-section-span">CITI Bank, Allianz</span>
+          <Divider orientation="vertical"  />
+          <div className="property-card-nla">
+            <span>3,700,000</span>
+            <br />
+            <br />
+            <span>NLA (sqft)</span>
           </div>
         </div>
-
-        <button className='btn'>Register to Bit</button>
       </div>
     </div>
   );

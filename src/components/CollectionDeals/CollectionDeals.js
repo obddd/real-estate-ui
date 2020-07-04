@@ -1,6 +1,6 @@
 import React from 'react';
 import './CollectionDeals.css';
-import PropertyCard from '../PropertyCard/PropertyCard';
+import PropertyDealCard from '../PropertyDealCard/PropertyDealCard';
 
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
@@ -30,13 +30,13 @@ const CollectionDeals = () => {
       <div className={classes.root}>
         <Grid container spacing={3}>
           <Grid item xs>
-            <Paper className={classes.paper}><PropertyCard/></Paper>
+            <Paper className={classes.paper}><PropertyDealCard/></Paper>
           </Grid>
           <Grid item xs>
-            <Paper className={classes.paper}><PropertyCard/></Paper>
+            <Paper className={classes.paper}><PropertyDealCard/></Paper>
           </Grid>
           <Grid item xs>
-            <Paper className={classes.paper}><PropertyCard/></Paper>
+            <Paper className={classes.paper}><PropertyDealCard/></Paper>
           </Grid>
         </Grid>
       </div>

@@ -5,7 +5,7 @@ import ItemsCarousel from 'react-items-carousel';
 
 const CountrySlider = () => {
   const [activeItemIndex, setActiveItemIndex] = useState(0);
-    const chevronWidth = 60;
+    const chevronWidth = 30;
   return (
     <div className="slider-container">
       <div className="slider-title">
@@ -15,7 +15,7 @@ const CountrySlider = () => {
         <span>___</span>
       </div>
 
-      <div style={{ padding: `0 ${chevronWidth}px` }}>
+      <div style={{  padding: `0 ${chevronWidth}px` }}>
       <ItemsCarousel
         requestToChangeActive={setActiveItemIndex}
         activeItemIndex={activeItemIndex}

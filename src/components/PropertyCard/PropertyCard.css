@@ -1,69 +1,65 @@
-.card-container{
-    height: 700px;
+.property-card-container{
+    height: 170px;
+    display: flex;
+
 }
 
-.image-container{
-    height: 35%;
+.property-card-image{
     background-color: #e2e2e2;
+    height: 170px;
+    width: 37%;
+    border-radius: 5%;
 }
-
-.text-container{
-    height: 65%;
-    color: gray;
+.property-card-text{
+    height: 170px;
+    width: 63%;
 }
-
-.header{
-    margin-left: 20px;
-    height: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.property-card-desc{
+    height: 58%;
+    text-align: left;
+    padding-left: 20px;
 }
-.header-heading{
+ .property-card-heading{
     color: #07212c;
-}
+    font-size: 1.5em;
+ }
 
-.desc{
-    height: 35%;
-}
+ .property-card-address{
+    margin: 5px 0;
+    font-size: 0.9em;
+ }
 
-.desc2{
-    height: 25%;
-}
-
-.btn{
-    height: 10%;
-    background-color: #fd7973;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 2px;
-    margin-top: 8px;
-}
-
-.desc-section{
-    height: 24%;
-    width: 100%;
+ .property-card-desc-year{
+    width: 60%;
+    color: #fd7973;
+    font-weight: 700;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+ }
+
+.property-card-detail{
+    text-align: left;
+    padding-left: 25px;
+    margin-top: 10px ;
+    height: 37%;
+    display: flex;
     font-weight: 700;
-}
-.desc-section-span{
-    margin: 0 20px;
+    font-size: 0.9em;
 }
 
-.desc-section2{
-    height: 33%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: 700;
+ .property-card-year{
+    width: 33%;
+    height: 100%;
+ }
+
+ .property-card-area{
+    padding-left: 8px;
+    width: 33%;
+    height: 100%;
+}
+
+.property-card-nla{
+    padding-left: 8px;
+    width: 33%;
+    height: 100%;
 }
