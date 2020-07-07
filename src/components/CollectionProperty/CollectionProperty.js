@@ -7,7 +7,7 @@ import PropertyCard from '../PropertyCard/PropertyCard';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    backgroundColor: '#e9f5f8',
+    backgroundColor: '#eaf1f8',
     padding: '50px 70px',
   },
   paper: {
