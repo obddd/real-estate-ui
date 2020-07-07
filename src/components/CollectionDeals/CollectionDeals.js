@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     textAlign: 'center',
-    width: '98.5%'
+    width: '90%'
   },
 }));
 
