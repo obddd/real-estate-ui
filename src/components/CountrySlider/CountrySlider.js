@@ -13,7 +13,7 @@ const CountrySlider = () => {
       <div className="dash-2">
         <span>&#11834;</span>
       </div>
-
+      <div>
       <Carousel
         additionalTransfrom={0}
         arrows
@@ -32,6 +32,11 @@ const CountrySlider = () => {
         renderButtonGroupOutside={false}
         renderDotsOutside={false}
         responsive={{
+          superLargeDesktop: {
+            // the naming can be any, depends on you.
+            breakpoint: { max: 4000, min: 3000 },
+            items: 5
+          },
           desktop: {
             breakpoint: {
               max: 3000,
@@ -69,6 +74,7 @@ const CountrySlider = () => {
         <CountryCard />
         <CountryCard />
       </Carousel>
+      </div>
     </div>
   );
 };
