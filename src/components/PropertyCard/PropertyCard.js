@@ -1,11 +1,14 @@
 import React from 'react';
 import './PropertyCard.css';
 import Divider from '@material-ui/core/Divider';
+import BuildingImage from '../../assets/10.png';
 
 const PropertyCard = () => {
   return (
     <div className="property-card-container">
-      <div className="property-card-image"></div>
+      <div className="property-card-image">
+        <img src={BuildingImage} alt='Building' />
+      </div>
 
       <div className="property-card-text">
         <div className="property-card-desc">
@@ -37,7 +40,7 @@ const PropertyCard = () => {
             <span>27,281</span>
             <br />
             <br />
-            <span>Site Area</span>
+            <span>Site Area (sqft)</span>
           </div>
           <Divider orientation="vertical"/>
           <div className="property-card-nla">

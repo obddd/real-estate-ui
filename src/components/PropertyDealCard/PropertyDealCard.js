@@ -1,24 +1,26 @@
 import React from 'react';
 import './PropertyDealCard.css';
+import PropertyImage from '../../assets/456.png'
 
 import Divider from '@material-ui/core/Divider';
 
 const PropertyDealCard = () => {
   return (
     <div className="card-container">
-      <div className="image-container"></div>
+      <div className="image-container">
+        <img src={PropertyImage} alt='Property' style={{width: '100%'}}/>
+      </div>
 
       <div className="text-container">
         <div className="header">
           <div className="header-heading">
-            <h2>Robinson 77</h2>
+            <span>Robinson 77</span>
           </div>
-          <div>
-            <span>77 Robinson Road, Shenton</span>
-          </div>
-          <div>
+          <div className='header-desc'>
+            <span>77 Robinson Road, Shenton</span><br/>
             <span>Way-Robinson Rd-Cecil St, Singapore</span>
           </div>
+          
         </div>
 
         <Divider variant="middle" />
@@ -58,8 +60,9 @@ const PropertyDealCard = () => {
             <span className="desc-section-span">CITI Bank, Allianz</span>
           </div>
         </div>
-
-        <button className='btn'>Register to Bit</button>
+        <div className='btn-container'>
+        <button className='btn'>Register to Bid</button>
+        </div>
       </div>
     </div>
   );

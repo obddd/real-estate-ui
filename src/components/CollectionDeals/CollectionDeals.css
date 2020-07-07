@@ -1,11 +1,18 @@
 .collection-container{
-    margin-top: 150px;
+    margin: 120px auto;
     height: 100%;
-    padding: 50px;
+    padding: 10px 88px;
 }
 
 .collection-title{
     font-weight: 300;
-    font-size: 50px;
-    color: #07212c;
+    font-size: 40px;
+    color: #07212C;
+}
+
+.dash-2{
+    font-size: 38px;
+    font-weight: 900;
+    position: relative;
+    top: -22px;
 }

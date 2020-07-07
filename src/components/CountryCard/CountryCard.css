@@ -1,23 +1,30 @@
 .country-card-container{
     height: 550px;
-    width: 350px; 
-    margin-top: 35px;
+    width: 336px;
 }
 
 .country-image-container{
-    background-color: #e2e2e2;
     height: 80%;
 }
 
 .country-text-container{
-    padding-left: 40px;
-    height: 15%;
+    padding-left: 30px;
+    height: 17%;
+    color: #07212C;
     background-color: #EEF1EF;
-    padding-top: 20px;
-
 }
 
-.country-card-header-heading{
-    font-weight: 700;
-    font-size: 28px;
+.country-card-heading{
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.country-card-desc{
+    position: relative;
+    top: 20px;
+    color: #708090;
+    font-size: 14px;
+    font-weight: 500;
 }

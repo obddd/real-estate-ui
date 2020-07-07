@@ -1,13 +1,12 @@
 .property-card-container{
     height: 170px;
     display: flex;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .property-card-image{
-    background-color: #e2e2e2;
-    height: 170px;
-    width: 37%;
+    height: 160px;
     border-radius: 5%;
 }
 .property-card-text{
@@ -21,45 +20,55 @@
 }
  .property-card-heading{
     color: #07212c;
-    font-size: 1.5em;
+    font-size: 1.3em;
  }
 
  .property-card-address{
-    margin: 5px 0;
-    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 0.75em;
+    text-align: left;
  }
 
  .property-card-desc-year{
-    width: 60%;
+    margin-top: 5px;
+    width: 58%;
     color: #fd7973;
-    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
     display: flex;
     justify-content: space-between;
  }
 
 .property-card-detail{
+    font-family: 'Roboto', sans-serif;
     text-align: left;
     padding-left: 25px;
     margin-top: 10px ;
     height: 37%;
     display: flex;
     font-weight: 700;
-    font-size: 0.9em;
+    font-size: 0.84em;
 }
 
  .property-card-year{
+    margin-top: 6px;
     width: 33%;
     height: 100%;
  }
 
  .property-card-area{
-    padding-left: 8px;
+    margin-top: 6px;
+    padding-left: 12px;
+    margin-right: 9px;
     width: 33%;
     height: 100%;
 }
 
 .property-card-nla{
-    padding-left: 8px;
+    margin-top: 6px;
+    padding-left: 12px;
     width: 33%;
     height: 100%;
 }

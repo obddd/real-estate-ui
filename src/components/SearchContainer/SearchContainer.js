@@ -9,11 +9,13 @@ const SearchContainer = () => {
         <span>Looking...</span>
       </div>
       <div className="search-title">
-        <span>for the right house for you !</span>
+        <span className='top'>for the right house for you !</span>
+      
+        <div className='dash'>
+          <span>&#11834;</span>
+        </div>
       </div>
-      <div className="search-title">
-        <span>___</span>
-      </div>
+
       <div className="search-bar">
         <SearchBar />
       </div>

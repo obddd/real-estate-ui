@@ -9,11 +9,12 @@ import Grid from '@material-ui/core/Grid';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    marginTop: '50px',
     flexWrap: "wrap"
+   
   },
   paper: {
-    textAlign: 'center'
+    textAlign: 'center',
+    width: '98.5%'
   },
 }));
 
@@ -24,20 +25,26 @@ const CollectionDeals = () => {
       <div className="collection-title">
         <span>Deals Closing</span>
       </div>
-      <div className="collection-title">
-        <span>___</span>
+      <div className="dash-2">
+        <span>&#11834;</span>
       </div>
 
       <div className={classes.root}>
-        <Grid container spacing={3}>
+        <Grid container spacing={5}>
           <Grid item xs>
-            <Paper className={classes.paper}><PropertyDealCard/></Paper>
+            <Paper className={classes.paper}>
+              <PropertyDealCard />
+            </Paper>
           </Grid>
           <Grid item xs>
-            <Paper className={classes.paper}><PropertyDealCard/></Paper>
+            <Paper className={classes.paper}>
+              <PropertyDealCard />
+            </Paper>
           </Grid>
           <Grid item xs>
-            <Paper className={classes.paper}><PropertyDealCard/></Paper>
+            <Paper className={classes.paper}>
+              <PropertyDealCard />
+            </Paper>
           </Grid>
         </Grid>
       </div>

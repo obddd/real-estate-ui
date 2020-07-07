@@ -1,13 +1,22 @@
 .slider-container{
     margin-top: 50px;
     height: 100%;
-    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 88px;
 }
 
 .slider-title{
     font-weight: 300;
-    font-size: 50px;
-    color: #07212c;
+    font-size: 40px;
+    color: #07212C;
+}
+
+.dash-2{
+    font-size: 38px;
+    font-weight: 900;
+    position: relative;
+    top: -22px;
 }
 
 .slider-btn{

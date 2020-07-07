@@ -1,17 +1,10 @@
 .searchbar-container{
     border-radius: 3px;
-    width: 70vw;
-    height: 95px;
+    width: 75vw;
+    height: 85px;
     background: white;
     display: flex;
     justify-content: space-between;
-    box-shadow:
-    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-    0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-    0 21.8px 13.4px rgba(0, 0, 0, 0.086),
-    0 70px 80px rgba(0, 0, 0, 0.12)
 }
 
 .form-field{
@@ -23,40 +16,46 @@
 
 .label{
     color: #07212c;
-    font-weight: 700;
-    font-size: 1.2em;
-    padding-left: 25px;
+    font-weight: 500;
+    font-size: 1.05em;
+    padding-left: 30px;
 }
 
 .input{
     padding-left: 25px;
+    position: relative;
+    top: -1px;
+    
 }
 
 input{
     width: 95%;
     border: none;
+    margin-left: 3px;
 }
 
 select, input:focus {
     outline:none;
 }
 
-select{
-    width: 100%;
+.input select{
+    width: 90%;
     border: none;
+    font-size: 0.9em;
+    color: #b2bfc2;
 }
 
 ::placeholder {
-    font-size: 0.9em;
+    font-size: 1em;
+    color: #b2bfc2;
   }
 
 .search-btn{
     width: 10%;
     color: white;
-    font-size: 1.4em;
-    font-weight: 400;
+    font-size: 2.4em;
     border: none;
-    background-color: #fd7973;
+    background-color: #FD6159;
 }
 
 

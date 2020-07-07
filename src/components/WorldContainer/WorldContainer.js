@@ -9,65 +9,85 @@ import Grid from '@material-ui/core/Grid';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    marginTop: '50px'
+    marginTop: '50px',
+    flexWrap: "wrap"
   },
   paper: {
-    textAlign: 'center'
+    textAlign: 'center',
+    width: '98.5%'
   },
-  grid:{
-      marginBottom: '50px'
-  }
+  grid: {
+    marginBottom: '50px',
+  },
 }));
 
 const WorldContainer = () => {
-    const classes = useStyles();
-    return (
-      <div className="world-container">
-        <div className="world-title">
-          <span>Invest Around The World</span>
-        </div>
-        <div className="world-title">
-          <span>___</span>
-        </div>
-
-        <div className={classes.root}>
-        <Grid className={classes.grid} container spacing={3}>
-          <Grid item xs>
-            <Paper className={classes.paper}><PropertyDealCard/></Paper>
-          </Grid>
-          <Grid item xs>
-            <Paper className={classes.paper}><PropertyDealCard/></Paper>
-          </Grid>
-          <Grid item xs>
-            <Paper className={classes.paper}><PropertyDealCard/></Paper>
-          </Grid>
-        </Grid>
-        <Grid className={classes.grid} container spacing={3}>
-          <Grid item xs>
-            <Paper className={classes.paper}><PropertyDealCard/></Paper>
-          </Grid>
-          <Grid item xs>
-            <Paper className={classes.paper}><PropertyDealCard/></Paper>
-          </Grid>
-          <Grid item xs>
-            <Paper className={classes.paper}><PropertyDealCard/></Paper>
-          </Grid>
-        </Grid>
-        <Grid className={classes.grid} container spacing={3}>
-          <Grid item xs>
-            <Paper className={classes.paper}><PropertyDealCard/></Paper>
-          </Grid>
-          <Grid item xs>
-            <Paper className={classes.paper}><PropertyDealCard/></Paper>
-          </Grid>
-          <Grid item xs>
-            <Paper className={classes.paper}><PropertyDealCard/></Paper>
-          </Grid>
-        </Grid>
+  const classes = useStyles();
+  return (
+    <div className="world-container">
+      <div className="world-title">
+        <span>Invest Around The World</span>
+      </div>
+      <div className="dash-2">
+        <span>&#11834;</span>
       </div>
 
-      </div>
-    );
+      <div className={classes.root}>
+        <Grid className={classes.grid} container spacing={5}>
+          <Grid item xs>
+            <Paper className={classes.paper}>
+              <PropertyDealCard />
+            </Paper>
+          </Grid>
+          <Grid item xs>
+            <Paper className={classes.paper}>
+              <PropertyDealCard />
+            </Paper>
+          </Grid>
+          <Grid item xs>
+            <Paper className={classes.paper}>
+              <PropertyDealCard />
+            </Paper>
+          </Grid>
+        </Grid>
+        <Grid className={classes.grid} container spacing={5}>
+          <Grid item xs>
+            <Paper className={classes.paper}>
+              <PropertyDealCard />
+            </Paper>
+          </Grid>
+          <Grid item xs>
+            <Paper className={classes.paper}>
+              <PropertyDealCard />
+            </Paper>
+          </Grid>
+          <Grid item xs>
+            <Paper className={classes.paper}>
+              <PropertyDealCard />
+            </Paper>
+          </Grid>
+        </Grid>
+        <Grid className={classes.grid} container spacing={5}>
+          <Grid item xs>
+            <Paper className={classes.paper}>
+              <PropertyDealCard />
+            </Paper>
+          </Grid>
+          <Grid item xs>
+            <Paper className={classes.paper}>
+              <PropertyDealCard />
+            </Paper>
+          </Grid>
+          <Grid item xs>
+            <Paper className={classes.paper}>
+              <PropertyDealCard />
+            </Paper>
+          </Grid>
+        </Grid>
+      </div>      
+
+    </div>
+  );
 };
 
 export default WorldContainer;
