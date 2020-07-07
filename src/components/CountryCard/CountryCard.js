@@ -6,7 +6,7 @@ const CountryCard = () => {
   return (
     <div className="country-card-container">
       <div className="country-image-container">
-        <img src={CountryImage} alt="Country" />
+        <img src={CountryImage} alt="Country" style={{width: '100%'}}/>
       </div>
 
       <div className="country-text-container">

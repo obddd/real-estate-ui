@@ -34,3 +34,7 @@
     margin-top: 8px;
     outline: none;
 }
+
+.carousel-item{
+    width: 20px;
+}

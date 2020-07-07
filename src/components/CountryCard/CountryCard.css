@@ -1,6 +1,6 @@
 .country-card-container{
     height: 550px;
-    width: 336px;
+    width: 90%;
 }
 
 .country-image-container{
@@ -8,8 +8,9 @@
 }
 
 .country-text-container{
+    position: relative;
+    height: 20%;
     padding-left: 30px;
-    height: 17%;
     color: #07212C;
     background-color: #EEF1EF;
 }

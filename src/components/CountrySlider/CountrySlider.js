@@ -20,12 +20,12 @@ const CountrySlider = () => {
         autoPlaySpeed={3000}
         centerMode={false}
         className=""
-        containerClass="container"
+        containerClass="carousel-container"
         dotListClass=""
         draggable
         focusOnSelect={false}
         infinite
-        itemClass=""
+        itemClass="carousel-item"
         keyBoardControl
         minimumTouchDrag={80}
         partialVisible
